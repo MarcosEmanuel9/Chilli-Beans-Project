@@ -1,0 +1,439 @@
+
+*{
+    font-family: 'Barlow', serif;
+    font-weight: 500;
+}
+
+body{
+    position: relative;
+    /* background-image: radial-gradient(rgba(218, 195, 195, 0.753), rgba(238, 105, 101, 0.596)); */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+      
+    width: 100%;
+ 
+    
+}
+
+.container1{
+  
+   
+}
+
+.header{
+    position: relative;
+   margin-top: 0;
+    height: 143vh;
+   background-image: radial-gradient(rgba(218, 195, 195, 0.753), rgba(255, 18, 10, 0.39));
+   
+}
+.logo{
+    top: 1.4%;
+    left: 10%;
+    position: absolute;
+    width: 10vw;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+
+#bagicon{
+    top: 3%;
+position: absolute;
+left: 90%;
+width: 30px;
+margin: 0px;
+padding: 0px;
+cursor: pointer;
+
+
+}
+.menu{
+   position: relative;
+   left: 800px;
+   top: 15px;
+    margin: 0px;
+    margin-right: 100px;
+    padding: 10px;
+    list-style: none;
+   
+    
+    
+    
+    
+}
+.menuitem{
+    
+    margin-right: 20px;
+    float: left;
+    padding: 15px;
+    cursor: pointer;
+
+}
+.headercontent{
+    margin-top: 80px;
+    /* background-color: aquamarine; */
+    height: 100%;
+    width: 100%;
+    overflow:  hidden;
+
+}
+ .headerphoto{
+    margin-top: 0px;
+width: 100%;
+display: block;
+
+
+
+ }
+ .headertext{
+     position: absolute;
+     background-color: rgba(0, 0, 0, 0.74);
+      width: 55vw;
+      height: 30vh;
+      top: 60%;
+      left: 5%;
+      color: rgb(253, 77, 77);
+      padding: 5px;
+ }
+ .headerh1{
+     font-family: Bebas Neue;
+     font-weight: 500;
+     margin-top: 10px;
+     margin-bottom: 25px;
+     margin-left: 15px;
+   font-size: 6vw;
+
+ }
+
+ .headerp{   
+     font-family: Montserrat;
+     color:cornsilk;
+    font-size: 1.5vw;
+    margin-left: 15px;
+    margin-top: 0px;
+ }
+ .headerbutton{
+    position: absolute;
+    top: 25%;
+    left: 77%;
+    width: 320px;
+    height: 100px;
+    border: none;
+    /* background-color: rgb(250, 204, 204); */
+    background-color: rgb(255, 47, 47);
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 0 rgb(239, 241, 66);
+    transition: ease-out 0.3s;
+    font-size: 1.4vw;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.headerbutton:hover{
+  box-shadow: inset 320px 0 0 0 rgb(224, 255, 46);
+  color: black;
+}
+
+
+.featuredproducts{
+    
+    position: absolute;
+
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(252, 252, 252, 0.952); 
+    box-sizing: border-box;
+
+}
+
+.featuredproductsphoto1{
+    position: relative;
+    
+ height: 600px;
+ left: 0%;
+ margin: 0px
+ 
+}
+.featuredproductsphoto2{
+    position: relative;
+    height: 600px;
+    left: 0%;
+    margin: 0px;
+   
+   }
+   .featuredproductsphoto3{
+    position: relative;
+    height: 600px;
+    left: 0%;
+    margin: 0px
+   }
+
+.fpcontainer{
+    font-size: 0px;
+    margin: auto;
+    margin-bottom: 0px;
+   
+    /* background-color: tomato; */
+    width: 87.5%;
+    height: 55%;
+    overflow: hidden;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.fptitle{
+/* background-color: yellow; */
+height: 10%;
+margin-top: 40px;
+margin-bottom: 50px;
+
+}
+
+.fph2{
+    font-family: Barlow;
+    font-weight: 500;
+    font-size: 3vw;
+    margin-top: 0px;
+margin-bottom: 0px;
+text-align: center;
+line-height: 220px;
+
+}
+
+.fpdescription{
+    font-family: Barlow;
+text-align: center;
+margin-top: 8px;
+font-size: 2vw;
+cursor: pointer;
+
+}
+
+.fphr{
+    margin-top: 0px;
+    margin-bottom: 20px;
+width: 20vw;
+background-color: red;
+border: 3px red solid;
+
+}
+
+.latestproducts{
+    position: absolute;
+    background-color: rgba(252, 252, 252, 0.952); 
+    top: 190%;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0, 255, 64, 0.952);  */
+    box-sizing: border-box;
+}
+.lptitle{
+    /* background-color: yellow; */
+    font-family: Barlow;
+    font-weight: 500;
+    font-size: 2vw;
+    margin-top: 0px;
+margin-bottom: 0px;
+text-align: center;
+line-height: 20px;
+}
+
+.lphr{
+    margin-top: 0px;
+    margin-bottom: 20px;
+width: 20vw;
+background-color: red;
+border: 3px red solid;}
+
+.lpcontainer{
+    font-size: 0px;
+    margin: auto;
+    margin-bottom: 0px;
+   
+    /* background-color: tomato; */
+    width: 81%;
+    height: 39%;
+    overflow: hidden;
+    padding: 0px;
+    
+}
+
+.latestproductsphoto1{
+    cursor: pointer;
+    position: relative;
+    
+ height: 400px;
+ left: 0%;
+ margin: 10px
+ 
+}
+.latestproductsphoto2{
+    cursor: pointer;
+    position: relative;
+    height: 400px;
+    left: 0%;
+    margin: 10px;
+   
+   }
+   .latestproductsphoto3{
+    cursor: pointer;
+    position: relative;
+    height: 400px;
+    left: 0%;
+    margin: 10px
+   }
+
+.latestproductsphoto4{
+    cursor: pointer;
+ position: relative;
+ height: 400px;
+ left: 0%;
+ margin: 10px;
+ margin-bottom: 0px;
+}
+
+.lpcc{
+font-weight: bold;
+font-size: 200px;
+
+}
+
+.lp1description{
+position: absolute;
+list-style: none;
+font-size: 1.2vw;
+left: 110px;
+}
+
+.lp1c{
+    padding-bottom: 10px;
+}
+
+.lp2description{
+    position: absolute;
+    list-style: none;
+    font-size: 1.2vw;
+    left: 340px;
+    top: 0px;
+    width: 200px;
+   
+    }
+    
+    .lp2c{
+        padding-bottom: 10px;
+    }
+
+    .lp3description{
+        position: absolute;
+        list-style: none;
+        font-size: 1.2vw;
+        left: 290px;
+        top: 0px;
+        width: 200px;
+        }
+        
+        .lp3c{
+            padding-bottom: 10px;
+        }
+
+        .lp4description{
+            position: absolute;
+            list-style: none;
+            font-size: 1.2vw;
+            left: 290px;
+            top: 0px;
+            width: 300px;
+            }
+            
+            .lp4c{
+                padding-bottom: 10px;
+            }
+
+
+.featuredproducts2{
+    
+                position: absolute;
+                margin-top: 0px;
+                top: 255%;
+                width: 100%;
+                height: 100vh;
+                background-color: rgb(8, 5, 5); 
+                box-sizing: border-box;
+                margin-bottom: 0px;
+}
+.fp2container{
+    font-size: 0px;
+    margin: auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 700px;
+   
+    /* background-color: tomato; */
+    width: 87.5%;
+    height: 100%;
+    overflow: hidden;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.fp2title{
+    position: absolute;
+    color: white;
+    /* background-color: yellow; */
+    
+    top: 100px;
+    left: 90px;
+   
+    
+    }
+    
+    .fp2h2{
+        font-family: Bebas Neue;
+        font-weight: 500;
+        font-size: 6vw;
+        margin-top: 0px;
+    margin-bottom: 80px;
+    text-align: center;
+    line-height: 220px;
+    
+    }
+
+    .fp2p{
+        text-align: center;
+        font-family: Barlow;
+        font-size: 2vw;
+
+    }
+
+    .fp2button{
+position: absolute;
+top: 550px;
+left: 50px;
+width: 220px;
+height: 100px;
+border: none;
+/* background-color: rgb(250, 204, 204); */
+background-color: rgb(0, 0, 0);
+border-radius: 20px;
+box-shadow: inset 0 0 0 0 rgb(239, 241, 66);
+transition: ease-out 0.3s;
+font-size: 1.4vw;
+outline: none;
+cursor: pointer;
+color: white;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: bold;
+}
+
+.fp2button:hover{
+    box-shadow: inset 220px 0 0 0 rgb(255, 255, 255);
+    color: black;
+}

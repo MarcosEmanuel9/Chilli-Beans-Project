@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
     <title>Project - Chilli Beans</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -59,105 +61,259 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=EB+Garamond:wght@600&family=Libre+Baskerville:ital@1&family=Montserrat:wght@300;400;500&family=Playfair+Display:wght@700&family=Roboto&display=swap"
         rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <body>
-    <div class="container1">
-        <header class="header">
-            <img src="Assets/chillibeans-9bc1a-large.png" class="logo">
-            <ul class="menu">
-                <li class="menuitem">Home</li>
-                <li class="menuitem">Products</li>
-                <li class="menuitem">About</li>
-                <li class="menuitem">Contact</li>
-                <li class="menuitem">Account</li>
-            </ul>
-            <img src="Assets/bag.png" id="bagicon">
+    <header>
 
-            <button class="headerbutton">Explore Now</button>
-
-            <div class="headercontent">
-                <img src="Assets/ali-pazani-G5pK4PIrxps-unsplash.jpg" class="headerphoto">
-
-                <div class="headertext">
-                    <h1 class="headerh1">Absolute style!</h1>
-                    <p class="headerp">Chilli Beans glasses combine precision, innovation and incredible attention to
-                        detail.</p>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="Assets/chillibeans-9bc1a-large.png" class="logophoto" width="130px">
                 </div>
-
-
-                <section class="featuredproducts">
-
-                    <div class="fptitle">
-                        <h2 class="fph2">Featured Products</h2>
+                <nav>
+                    <ul id="MenuItems">
+                        <li class="menuitem">Home</li>
+                        <li class="menuitem">Products</li>
+                        <li class="menuitem">About</li>
+                        <li class="menuitem">Contact</li>
+                        <li class="menuitem">Account</li>
+                    </ul>
+                </nav>
+                <img src="Assets/bag.png" class="bagicon">
+                <img src="Assets/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="frontphotodiv">
+                <button class="frontbutton">Explore Now!</button>
+                <img src="Assets/ali-pazani-G5pK4PIrxps-unsplash.jpg" class="frontphoto">
+                <div class="row">
+                    <div class="col-2">
+                        <h1>Eyewear With</h1>
+                        <h2>Absolute Style!</h2>
+                        <p>Chilli Beans glasses combine precision, innovation and incredible attention to
+                            detail.</p>
                     </div>
-                    <hr class="fphr">
-                    <div class="fpcontainer">
-                        <img src="Assets/muskel-dita-black-model.png" class="featuredproductsphoto1">
-                        <img src="Assets/muskel-dita-black-hero.png" class="featuredproductsphoto2">
-                        <img src="Assets/muskel-dita-black-hero2.png" class="featuredproductsphoto3">
-                    </div>
-
-                    <p class="fpdescription">Muskel Hero - Black</p>
-                </section>
-
-
-                <section class="latestproducts">
-
-                    <div class="lptitle">
-                        <h2 class="lph3">Latest Products</h2>
-                    </div>
-                    <hr class="lphr">
-                    <div class="lpcontainer">
-                        <img src="Assets/Tjej.jpg" class="latestproductsphoto1">
-                        <img src="Assets/florencia-simonini-3kJyLq0Tl6I-unsplash.jpg" class="latestproductsphoto2">
-                        <img src="Assets/charles-deluvio-pOUA8Xay514-unsplash.jpg" class="latestproductsphoto3">
-                        <img src="Assets/tamara-bellis-YGTw7VdAkUM-unsplash.jpg" class="latestproductsphoto4">
-                    </div>
-                    <ul class="lp1description" class="lpcc">
-                        <li class="lp1c" class="lpc">Aviator - Iron</li>
-                        <li class="lp1c" class="lpc">$49,99</li>
-
-                        <ul class="lp2description" class="lpcc">
-                            <li class="lp2c" class="lpc">Round Sunglasses - Gold</li>
-                            <li class="lp2c" class="lpc">$79,99</li>
-
-                            <ul class="lp3description" class="lpcc">
-                                <li class="lp3c" class="lpc">HarryPotter - Iron</li>
-                                <li class="lp3c" class="lpc">$49,99</li>
-
-                                <ul class="lp4description" class="lpcc">
-                                    <li class="lp4c" class="lpc">Excuses Sunglasses - Skin</li>
-                                    <li class="lp4c" class="lpc">$49,99</li>
-                                </ul>
-                </section>
-
-
-
-
-                <section class="featuredproducts2">
-
-                    <div class="fp2title">
-                        <h2 class="fp2h2">Be alternative</h2>
-                        <p class="fp2p">Classic Caine</p>
-                    </div> 
-                    <div class="fp2container">
-                        <img src="Assets/mccc.jpg" class="featuredproducts2photo1">
-                        <img src="" class="featuredproducts2photo2">
-                        <img src="" class="featuredproducts2photo3">
-                    </div>
-
-                    <button class="fp2button">Find out</button>
-
-
-
-
-
-
-                    
-                </section>
-
+                </div>
             </div>
 
+        </div>
+    </header>
+
+
+    <!-- ----------------FEATURED PRODUCT----------
+     -->
+    <div class="featuredproduct">
+        <div class="fptitle">
+            <h2 class="fph2">Featured Products</h2>
+        </div>
+
+        <hr class="fphr">
+
+
+
+        <div class="row-2">
+            <div class="col-4">
+                <img src="Assets/muskel-dita-black-model.png">
+            </div>
+            <div class="col-4">
+                <img src="Assets/muskel-dita-black-hero.png">
+            </div>
+            <div class="col-4">
+                <img src="Assets/muskel-dita-black-hero2.png">
+            </div>
+        </div>
+        <div class="fpdescription">
+            <p>Muskel Hero - Black</p>
+        </div>
+    </div>
+
+    <!-- ----------------LAtest PRODUCT----------
+     -->
+    <div class="latestproducts">
+        <div class="lptitle">
+            <h2 class="lph2">Recent Products</h2>
+        </div>
+        <hr class="fphr">
+
+        <div class="smallcontainer">
+        <div class="row-5">
+            <div class="col-5">
+                <img src="Assets/Tjej.jpg" class="col-5photo1">
+                <h4>Round Sunglasses - Gold</h4>
+                <p>$49,90</p>
+            </div>
+            <div class="col-5">
+                <img src="Assets/florencia-simonini-3kJyLq0Tl6I-unsplash.jpg" class="col-5photo">
+                <h4>Square T - Iron</h4>
+                <p>$79,90</p>
+            </div>
+            <div class="col-5">
+                <img src="Assets/charles-deluvio-pOUA8Xay514-unsplash.jpg" class="col-5photo">
+                <h4>Round Queue - Gold</h4>
+                <p>$49,90</p>
+            </div>
+            <div class="col-5">
+                <img src="Assets/tamara-bellis-YGTw7VdAkUM-unsplash.jpg" class="col-5photo">
+                <h4>Kalow Sunglasses - Skin</h4>
+                <p>$49,90</p>
+            </div>
+        </div>
+        </div>
+
+
+
+
+    </div>
+
+    <!-- -------------------------OFFER--------------- -->
+
+     <div class="offer">
+         <div class="offertitle">
+             <h4 class="offertitleh4">Caine's Orpheo Classic</h4>
+             <img src="Assets/Michael-Caine-747x1030.jpg" alt="">
+         </div>
+
+         <button class="button2">More here</button>
+     </div>
+     <div class="offerquerytitle">
+        <h4 class="offerquerytitleh4">Caine's Orpheo Classic</h4>
+
+
+     </div>
+
+        <!-- ---------------sPONSORS------------------ -->
+
+        <div class="sponsors">
+            <div class="row-5">
+                <div class="col-6">
+                    <img src="Assets/paypal-logo-black-and-white.png" >
+                </div>
+                <div class="col-6">
+                    <img src="Assets/lacoste.png">
+                </div>
+                <div class="col-6">
+                    <img src="Assets/mercadopagoHorizontal.png" >
+                </div>
+            </div>
+        </div>
+        
+        <!-- ---------------------FOOTER--------------- -->
+        <footer>
+
+
+            <div class="row-8">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and Ios mobile phone.</p>
+                    <img src=" Assets/image.png" class="appphoto1">
+                <img src="Assets/apple-app-store-badge-white.png" class="appphoto2">
+
+
+
+                </div>
+
+                <div class="footer-col-2">
+                    <img class="cbfooterlogo" src="Assets/chillibeanslogo.png">
+                    <p>Our Purpose is To Sutainably Make the Pleasure and Benefits of Eyewear
+                        Acessible to the Many.</p>
+
+
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+        
+                    </ul>
+
+
+
+                </div>
+
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul class="linkslist">
+
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Facebook</li>
+        
+                    </ul>
+
+
+
+                </div>
+
+        </div>
+
+
+        </footer>
+
+<!-- 
+-------------JS FOR MENU TOGGLE--------- -->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle (){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+    
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+
+
+</script>
+
+
+    
+
+
+
+
+
+
+
+
+</body>
 
 </html>

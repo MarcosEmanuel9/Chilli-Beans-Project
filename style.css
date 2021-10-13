@@ -466,6 +466,18 @@ nav ul li{
     margin-left: 20px;
     display: none;
 }
+.offerquerytitle{
+    display: none;
+    
+}
+.offerquerytitle h4{
+    display: none;
+    
+}
+
+
+
+
 
 /* -------------MEDIA QUERY FOR MENU ------------- */
 
@@ -498,12 +510,9 @@ nav ul li{
         cursor: pointer;
         display: block;
     }
-    .offerquerytitle{
-        display: hidden;
-    }
+    
 
 
-}
 
 
 /* media query for less than 600 screen size */
